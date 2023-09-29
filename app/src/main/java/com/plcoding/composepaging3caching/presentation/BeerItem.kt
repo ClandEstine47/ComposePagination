@@ -30,7 +30,8 @@ fun BeerItem(
     modifier: Modifier = Modifier
 ) {
     Card(
-        modifier = modifier,
+        modifier = modifier
+            .padding(10.dp),
         elevation = 4.dp
     ) {
         Row(
@@ -56,7 +57,7 @@ fun BeerItem(
                 verticalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = beer.name,
+                    text = beer.name!!,
                     style = MaterialTheme.typography.h6,
                     modifier = Modifier.fillMaxWidth()
                 )
@@ -64,7 +65,7 @@ fun BeerItem(
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    text = beer.tagline,
+                    text = beer.tagline!!,
                     fontStyle = FontStyle.Italic,
                     color = Color.LightGray,
                     modifier = Modifier.fillMaxWidth()
@@ -73,7 +74,7 @@ fun BeerItem(
                 Spacer(modifier = Modifier.height(8.dp))
 
                 Text(
-                    text = beer.description,
+                    text = beer.description!!,
                     modifier = Modifier.fillMaxWidth()
                 )
 
