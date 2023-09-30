@@ -1,8 +1,8 @@
 # ComposePagination
 Compose Paging 3 Caching
 
-# API
+## API
 https://punkapi.com/
 
 ## Screenshots
-<img src="Images/img_1.jpg" width="250"> &nbsp; &nbsp; &nbsp; <img src="Images/img_2.jpg" width="250"> 
+<img src="Images/img_1.jpeg" width="250"> &nbsp; &nbsp; &nbsp; <img src="Images/img_2.jpeg" width="250"> 
