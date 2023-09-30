@@ -30,7 +30,9 @@ object AppModule {
             context,
             BeerDatabase::class.java,
             "beers.db"
-        ).build()
+        )
+            .fallbackToDestructiveMigration()   // Remove this line for production build
+            .build()
     }
 
     @Provides

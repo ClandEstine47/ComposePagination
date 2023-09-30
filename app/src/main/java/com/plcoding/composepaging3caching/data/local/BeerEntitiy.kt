@@ -14,14 +14,13 @@ data class BeerEntity(
     val id: Int,
     val abv: Double?,
     val attenuation_level: Double?,
-//    @Embedded
-//    val boil_volume: BoilVolume,
+    val boil_volume: BoilVolume,
     val brewers_tips: String?,
     val contributed_by: String?,
     val description: String?,
     val ebc: Double?,
     val first_brewed: String?,
-//    val food_pairing: List<String>,
+    val food_pairing: List<String>,
     val ibu: Float?,
     val image_url: String?,
 //    @Embedded
